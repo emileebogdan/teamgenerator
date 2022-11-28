@@ -1,0 +1,28 @@
+{
+  "name": "teamgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emileebogdan/teamgenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emileebogdan/teamgenerator/issues"
+  },
+  "homepage": "https://github.com/emileebogdan/teamgenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "jest": "^29.3.1"
+  }
+}

@@ -1,10 +1,10 @@
 const Employee = require('../content/Employee.js');
 
 describe('Employee Class Test', ()=>{
-    const test = [
+    const employee1test = [
         'Emilee', 2, 'email@email.com'
     ];
-    const testEmployee = new Employee(...test);
+    const testEmployee = new Employee(...employee1test);
     test('Test get name method', ()=>{
         expect(testEmployee.getName()).toBe('Emilee')
     });

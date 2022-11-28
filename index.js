@@ -75,9 +75,7 @@ const createManager = () => {
 
 const addEmployee = () => {
     console.log(`
-    =================
-    Time to add employee's to the team.
-    =================
+    Add employee's to the team.
     `);
 
     return inquirer.prompt ([
@@ -207,7 +205,7 @@ createManager()
   })
   .then(pageHTML => {
     console.log(pageHTML);
-    // return writeFile(pageHTML);
+    return writeFile(pageHTML);
   })
   .catch(err => {
  console.log(err);

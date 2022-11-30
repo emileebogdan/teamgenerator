@@ -201,6 +201,7 @@ createManager()
   .then(addEmployee)
   .then(teamArray => {
     console.log(teamArray);
+    console.log(getTeam);
     return getTeam(teamArray);
   })
   .then(pageHTML => {
